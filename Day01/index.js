@@ -1,1 +1,1 @@
-console.log("Hello, Day 01!");
+console.log("Hello, I am a Javascript Developer.")
