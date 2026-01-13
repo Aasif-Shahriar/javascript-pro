@@ -4,4 +4,4 @@
 
 1. First talk about async: Async don't stop the parsing of HTML. It's allow to download JS. But here is a problem, when JS Code download is done, it's execute immediately. This method doesn't wait for HTML parsing. So, sometime it throws error.
 
-2. Now defer: While async download JS code and execute immediately and don't wait for HTMl parsing. Defer do an amazing job. It downloads JS code, don't execute it, wait for HTML parsing and then execute the code. So there will no error or null issue.
+2. Now defer: While async download JS code and execute immediately and don't wait for HTMl parsing. Defer do an amazing job. It downloads JS code, don't execute it, wait for HTML parsing and then execute the code. So there will be no error or null issue.
